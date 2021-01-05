@@ -5,7 +5,7 @@ class Vehicle
         this.position = new Vector(x,y);
         this.velocity = new Vector(Math.random()*8-4,Math.random()*8-4);
         this.acceleration = new Vector(0,0);
-        this.r = 6;
+        this.r = 6; // size
         this.maxForce = 0.05;
         this.maxSpeed = 3.0;
     }
